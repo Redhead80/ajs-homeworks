@@ -2,7 +2,7 @@
 Thumbs.db*
 .DS_Store*
 HELP.md
-
+dist
 doc
 node_modules
 
