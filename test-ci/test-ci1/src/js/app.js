@@ -1,12 +1,12 @@
 export default function healthIndicator(params) {
   let result = '';
   if (params.health > 50) {
-    result = 'healthy'
+    result = 'healthy';
   } else if (params.health >= 15) {
-    result = 'wounded'
+    result = 'wounded';
   } else {
-    result = 'critical'
+    result = 'critical';
   }
-  return result,
-};
+  return result;
+}
 console.log(healthIndicator({ name: 'Маг', health: 90 }));
