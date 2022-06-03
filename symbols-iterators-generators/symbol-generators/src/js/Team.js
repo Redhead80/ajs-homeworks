@@ -22,7 +22,6 @@ export default class Team {
     return [...this.members];
   }
 
-
   * [Symbol.iterator]() {
     for (const value of this.members) {
       yield value;
